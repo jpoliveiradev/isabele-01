@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(204, 102, 204));
+}
+section {
+    background: rgba(255, 255, 255, 0.829);
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 350px;
+    max-height: 500px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+.sales {
+    border: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-image: linear-gradient(to right, rgba(223, 48, 48, 0.945), rgb(207, 87, 207));
+    text-align: center;
+}
+.sales img {
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    padding: 10px;
+}
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.856);
+}
+a {
+    text-decoration: none;
+}
+fieldset {
+    border-radius: 8px;
+    padding: 5px;
+    border: 3px solid transparent;
+    border-image: linear-gradient(to left, rgba(223, 48, 48, 0.945), rgb(209, 84, 192)) 1 repeat;
+}
+legend {
+    padding: 5px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+legend.msg2 {
+    font-size: 18px;
+}
+p {
+    color: white;
+    font-size: 18px;
+}
+input {
+    border: none;
+    border-radius: 3px;
+}
+input[type='button'] {
+    color: white;
+    width: 48%;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    background-image: linear-gradient(to right, rgba(124, 3, 124), rgb(233, 9, 9, 0.945));
+}
+input[type='button']:hover {
+    background-image: linear-gradient(to right, rgb(58, 1, 58), rgba(219, 0, 0, 0.945));
+}
